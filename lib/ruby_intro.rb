@@ -56,7 +56,6 @@ def starts_with_consonant?(s)
   vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
   if strLength > 0
     char = s[0]
-    puts "The string is #{s} and char is #{char}"
     if vowels.include?(char) or !char.match?(/[A-Za-z]/)
       return false
     end
